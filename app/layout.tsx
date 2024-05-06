@@ -7,8 +7,8 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Developer, writer, and creator.',
+  title: "Nathan El-Khoury's Portfolio",
+  description: 'Software Engineer and Computer Science Student',
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(' ');
