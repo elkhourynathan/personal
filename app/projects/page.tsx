@@ -58,7 +58,7 @@ export default function ProjectsPage() {
             description="Developer a real time chat application which allows users to create a account and chat with each other."
             techStack={['Python', 'PostgreSQL', 'Flask', 'Socket.io']}
             imageUrl=""
-            githubUrl="https://github.com/elkhourynathan/workouttracker_wrkpr"
+            githubUrl="https://github.com/elkhourynathan/chat_app"
         />
       </div>
       <div className="prose prose-neutral">
