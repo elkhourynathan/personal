@@ -70,22 +70,33 @@ export default function Page() {
     <section>
       <PreloadResources />
       <div className="flex items-center justify-between mb-8">
-        <h1 className="text-2xl font-medium tracking-tighter">
+        {/* <h1 className="text-2xl font-medium tracking-tighter">
           Hey, I'm Nathan 👋
-        </h1>
-        <div className="avatar mr-12">
+        </h1> */}
+        {/* <div className="avatar mr-12">
           <div className="w-48 rounded-full">
-            <Image alt="Image of Nathan" src={avatar} />
+          <Image alt="Image of Nathan" src={avatar} />
           </div>
+        </div> */}
+        <div className="space-y-2">
+          <h1 className="text-4xl font-medium tracking-tighter">
+            Nathan El-Khoury
+          </h1>
+          <h1 className="text-xl text-neutral-400 font-medium tracking-tighter">
+            Software Engineer
+          </h1>
         </div>
       </div>
-      <p className="prose prose-neutral dark:prose-invert">
-        I'm a software engineer and a computer science student at Carleton
-        University, focusing on AI and ML. As a full stack developer with
-        interests in machine learning, data engineering, and finance, I'm
-        dedicated to creating user-centric solutions.
-      </p>
-      <div className="my-8 flex w-full flex-col space-y-4">Connect</div>
+      <div>
+        <h1 className="my-8 font-medium tracking-tighter">About</h1>
+        <p className="prose prose-neutral dark:prose-invert">
+          I'm a software engineer and a computer science student at Carleton
+          University, focusing on AI and ML. As a full stack developer with
+          interests in machine learning, data engineering, and finance, I'm
+          dedicated to creating user-centric solutions.
+        </p>
+      </div>
+      <div className="my-8 font-medium tracking-tighter">Connect</div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           You can find my links below. I'm always open to chat about new

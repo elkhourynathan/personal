@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Work',
-  description: 'A summary of my work experience.',
+  title: 'Project',
+  description: 'A summary of my favorite projects.',
 };
 
-export default function WorkPage() {
+export default function ProjectsPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
