@@ -12,10 +12,10 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
         Work Experience
       </h1>
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-neutral">
         <p>Below is a summary of my previous and current work experience</p>
         <hr className="my-6 border-neutral-600 " />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+        <h2 className="font-medium text-xl mb-0 tracking-tighter">
           J-Squared Technologies
         </h2>
         <div className="flex flex-row items-start justify-between">
@@ -35,12 +35,12 @@ export default function WorkPage() {
           <div className="badge badge-accent badge-outline">Next.js</div>
         </div>
         <hr className="my-6 border-neutral-600 " />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+        <h2 className="font-medium text-xl mb-0 tracking-tighter">
           Apption Software
         </h2>
         <div className="flex flex-row items-start justify-between">
           <p className="text-neutral-400 text-sm">Full Stack Developer</p>
-          <p className="text-neutral-400 text-sm">Sept - Dec 2023</p>
+          <p className="text-neutral-400 text-sm">Sept 2023 - Dec 2023</p>
         </div>
         <ul>
           <li>
@@ -77,7 +77,7 @@ export default function WorkPage() {
         </h2>
         <div className="flex flex-row items-start justify-between">
           <p className="text-neutral-400 text-sm">Software Developer</p>
-          <p className="text-neutral-400 text-sm">May - Aug 2023</p>
+          <p className="text-neutral-400 text-sm">May 2023 - Aug 2023</p>
         </div>
         <ul>
           <li>

@@ -29,6 +29,7 @@ function ArrowIcon() {
     </svg>
   );
 }
+
 function LinkedInIcon() {
   return (
     <svg

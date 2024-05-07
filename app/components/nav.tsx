@@ -1,15 +1,23 @@
 import Link from 'next/link';
 
-const navItems = {
+interface NavItem {
+  name: string;
+}
+
+interface NavItems {
+  [key: string]: NavItem;
+}
+
+const navItems: NavItems = {
   '/': {
     name: 'Home',
   },
   '/work': {
     name: 'Work',
   },
-  // '/Resume': {
-  //   name: 'Resume',
-  // },
+  '/projects': {
+    name: 'Projects',
+  },
 };
 
 export function Navbar() {

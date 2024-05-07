@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import ProjectCard from 'app/components/projectCard';
+import ProjectCardHosted from 'app/components/projectCardHosted';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Project',
+  title: 'Projects',
   description: 'A summary of my favorite projects.',
 };
 
@@ -10,103 +12,64 @@ export default function ProjectsPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        Work Experience
+        Projects
       </h1>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>Below is a summary of my previous and current work experience</p>
+      <div className="prose prose-neutral ">
         <hr className="my-6 border-neutral-600 " />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          J-Squared Technologies
-        </h2>
-        <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">
-            Software & Data Science Intern
-          </p>
-          <p className="text-neutral-400 text-sm">Present</p>
-        </div>
-        <p>
-          Working on the FALC-AI team, developing computer vision based
-          solutions for retail, construction and other industries.
-        </p>
-        <div className="space-x-2">
-          <div className="badge badge-accent badge-outline">Python</div>
-          <div className="badge badge-accent badge-outline">PyTorch</div>
-          <div className="badge badge-accent badge-outline">Typescript</div>
-          <div className="badge badge-accent badge-outline">Next.js</div>
-        </div>
-        <hr className="my-6 border-neutral-600 " />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          Apption Software
-        </h2>
-        <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Full Stack Developer</p>
-          <p className="text-neutral-400 text-sm">Sept - Dec 2023</p>
-        </div>
-        <ul>
-          <li>
-            Developed a keyword extraction algorithm in C# to extract critical
-            keywords and enable access to unstructured documents, enhancing
-            solution speed by 80% with more contextually relevant results
-          </li>
-          <li>
-            Engineered the Datahunter Query Language (DQL), a user focused query
-            language using a modified command pattern for backend architecture,
-            enhancing data retrieval efficiency and query capabilities
-          </li>
-          <li>
-            Rebuilt Datahunter’s discover page using Blazor to integrate DQL,
-            resulting in a more intuitive user interface, over 200% faster query
-            loads, and new features such as saved query histories
-          </li>
-          <li>
-            Overhauled the data catalogue pipeline in Databricks with data
-            engineering, automation, and establishing secure, scalable data
-            export with encryption and hashing to Azure storage
-          </li>
-        </ul>
-        <div className="space-x-2">
-          <div className="badge badge-accent badge-outline">C#</div>
-          <div className="badge badge-accent badge-outline">.NET</div>
-          <div className="badge badge-accent badge-outline">Python</div>
-          <div className="badge badge-accent badge-outline">SQL</div>
-          <div className="badge badge-accent badge-outline">Blazor</div>
-        </div>
-        <hr className="my-6 border-neutral-600 " />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          Starvoy Technologies
-        </h2>
-        <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Software Developer</p>
-          <p className="text-neutral-400 text-sm">May - Aug 2023</p>
-        </div>
-        <ul>
-          <li>
-            Designed and developed a comprehensive test automation program for
-            optical transceivers using Python, reducing testing time by over 10
-            hours per week
-          </li>
-          <li>
-            Seamlessly integrated hardware components by implementing APIs from
-            BERTs, DSOs, and temperature control units
-          </li>
-          <li>
-            Developed testing logic with extensive error checking mechanisms to
-            guarantee correct hardware connections and disconnections,
-            mitigating potential test disruptions
-          </li>
-          <li>
-            Spearheaded the design of a user-centric interface with ReactJS and
-            Electron, displaying real-time data from the hardware and
-            streamlining all relevant data into a structured downloadable report
-            for end-users
-          </li>
-        </ul>
-        <div className="space-x-2">
-          <div className="badge badge-accent badge-outline">Python</div>
-          <div className="badge badge-accent badge-outline">Reactjs</div>
-          <div className="badge badge-accent badge-outline">Electron</div>
-          <div className="badge badge-accent badge-outline">Flask</div>
-        </div>
+        <ProjectCardHosted
+            title="Machine Learning UFC Predictor"
+            date="2024"
+            description="Developed a project that compiles data from all previous UFC fights and fighters, utilizing this information to train a 
+            machine learning model that predicts the outcomes of upcoming fights."
+            techStack={['Python', 'Sci-kit Learn', 'Pandas', 'Numpy', 'ReactJS', 'Flask', 'SQL']}
+            imageUrl="/images/ml_ufc_pred.png"
+            githubUrl="https://github.com/elkhourynathan/fight_predictor"
+            hostedUrl="https://ufc-fight-pred-00326a93d210.herokuapp.com/"
+        />
+      </div>
+      <div className="prose prose-neutral">
+        <ProjectCard
+            title="Health and Fitness Club Management System"
+            date="2024"
+            description="Designed a web application that facilitates interaction among various user categories including members, trainers, and administrators. 
+            This platform replicates essential functions needed to manage a fitness club, like personal logging, scheduling member and trainer sessions, 
+            organizing classes, and maintaining equipment."
+            techStack={['Python', 'PostgreSQL', 'Flask']}
+            imageUrl="/images/health_fitness_management.png"
+            githubUrl="https://github.com/elkhourynathan/comp3005_project_v2"
+        />
+      </div>
+      <div className="prose prose-neutral">
+        <ProjectCard
+            title="Workout Tracker"
+            date="2024"
+            description="Created a web application that enables users to register or log in and monitor intricate workout routines, 
+            encompassing varied exercise plans, specific sets, repetitions, and weights. 
+            This application helps users precisely track their fitness journey and observe their progress over time."
+            techStack={['MongoDB', 'Expressjs', 'ReactJS', 'NodeJS']}
+            imageUrl="/images/wrkpr_login.png"
+            githubUrl="https://github.com/elkhourynathan/workouttracker_wrkpr"
+        />
+      </div>
+      <div className="prose prose-neutral">
+        <ProjectCard
+            title="Real Time Chat Application"
+            date="2024"
+            description="Developer a real time chat application which allows users to create a account and chat with each other."
+            techStack={['Python', 'PostgreSQL', 'Flask', 'Socket.io']}
+            imageUrl=""
+            githubUrl="https://github.com/elkhourynathan/workouttracker_wrkpr"
+        />
+      </div>
+      <div className="prose prose-neutral">
+        <ProjectCard
+            title="Algorithmic Infared Image Detection"
+            date="2024"
+            description="Created a python application which takes in infared image frames and detects heat signatures."
+            techStack={['Python', 'Pygame']}
+            imageUrl="/images/marked_target.png"
+            githubUrl="https://github.com/elkhourynathan/python-detectheat"
+        />
       </div>
     </section>
   );
