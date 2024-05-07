@@ -32,12 +32,16 @@ const ProjectCardHosted: React.FC<ProjectCardProps> = ({ title, date, descriptio
         <a
           href={githubUrl}
           className="block mb-2 text-lg md:text-xl font-bold text-white hover:text-accent transition-colors"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           {title}
         </a>
         <a
           href={hostedUrl}
           className="flex items-center text-sm md:text-base text-white hover:text-accent transition-colors"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <span className="mr-1">View Live</span>
           <ArrowIcon />

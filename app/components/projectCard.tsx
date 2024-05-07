@@ -31,6 +31,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, date, description, tec
         <a
           href={githubUrl}
           className="text-lg md:text-xl font-bold text-white hover:text-accent transition-colors"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           {title}
         </a>
