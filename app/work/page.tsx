@@ -19,9 +19,7 @@ export default function WorkPage() {
           J-Squared Technologies
         </h2>
         <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">
-            Software & Data Science Intern
-          </p>
+          <p className="text-neutral-400 text-sm">Software Engineer Intern</p>
           <p className="text-neutral-400 text-sm">Present</p>
         </div>
         <p>
@@ -39,7 +37,7 @@ export default function WorkPage() {
           Apption Software
         </h2>
         <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Full Stack Developer</p>
+          <p className="text-neutral-400 text-sm">Full Stack Developer Intern</p>
           <p className="text-neutral-400 text-sm">Sept 2023 - Dec 2023</p>
         </div>
         <ul>
@@ -76,7 +74,7 @@ export default function WorkPage() {
           Starvoy Technologies
         </h2>
         <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Software Developer</p>
+          <p className="text-neutral-400 text-sm">Software Engineer Intern</p>
           <p className="text-neutral-400 text-sm">May 2023 - Aug 2023</p>
         </div>
         <ul>
