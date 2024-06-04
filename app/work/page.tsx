@@ -26,6 +26,12 @@ export default function WorkPage() {
           Working on the FALC-AI team, developing computer vision based
           solutions for retail, construction and other industries.
         </p>
+        <ul>
+          <li>
+            Integrated parallelism into the computer vision pipeline to fully
+            utilize edge device hardware, increasing FPS by 30%
+          </li>
+        </ul>
         <div className="space-x-2">
           <div className="badge badge-accent badge-outline">Python</div>
           <div className="badge badge-accent badge-outline">PyTorch</div>
@@ -37,29 +43,26 @@ export default function WorkPage() {
           Apption Software
         </h2>
         <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Full Stack Developer Intern</p>
+          <p className="text-neutral-400 text-sm">
+            Full Stack Developer Intern
+          </p>
           <p className="text-neutral-400 text-sm">Sept 2023 - Dec 2023</p>
         </div>
         <ul>
           <li>
-            Developed a keyword extraction algorithm in C# to extract critical
-            keywords and enable access to unstructured documents, enhancing
-            solution speed by 80% with more contextually relevant results
+            Developed a keyword extraction algorithm in C# using tokenization,
+            word co-occurrence, position analysis, and inverse frequency,
+            resulting in an 5x increase in computation speed for accessing
+            structured and unstructured documents
           </li>
           <li>
             Engineered the Datahunter Query Language (DQL), a user focused query
             language using a modified command pattern for backend architecture,
-            enhancing data retrieval efficiency and query capabilities
+            resulting in over 200% faster query loads and query capabilities
           </li>
           <li>
-            Rebuilt Datahunter’s discover page using Blazor to integrate DQL,
-            resulting in a more intuitive user interface, over 200% faster query
-            loads, and new features such as saved query histories
-          </li>
-          <li>
-            Overhauled the data catalogue pipeline in Databricks with data
-            engineering, automation, and establishing secure, scalable data
-            export with encryption and hashing to Azure storage
+            Overhauled the data catalog pipeline in Databricks, resulting in
+            secure and automated data exports to Azure storage
           </li>
         </ul>
         <div className="space-x-2">
@@ -79,28 +82,18 @@ export default function WorkPage() {
         </div>
         <ul>
           <li>
-            Designed and developed a comprehensive test automation program for
-            optical transceivers using Python, reducing testing time by over 10
-            hours per week
+          Lead the developed of a comprehensive test automation program for optical transceivers using Python, saving over 20 hours of testing time per week
           </li>
           <li>
-            Seamlessly integrated hardware components by implementing APIs from
-            BERTs, DSOs, and temperature control units
+          Integrated hardware components by utilizing C++ APIs in Python via wrappers for BERTs, DSOs, and temperature control units, ensuring seamless functionality
           </li>
           <li>
-            Developed testing logic with extensive error checking mechanisms to
-            guarantee correct hardware connections and disconnections,
-            mitigating potential test disruptions
-          </li>
-          <li>
-            Spearheaded the design of a user-centric interface with ReactJS and
-            Electron, displaying real-time data from the hardware and
-            streamlining all relevant data into a structured downloadable report
-            for end-users
+          Designed a user-centric interface with ReactJS and Electron, displaying real-time hardware data and streamlining it into downloadable reports
           </li>
         </ul>
         <div className="space-x-2">
           <div className="badge badge-accent badge-outline">Python</div>
+          <div className="badge badge-accent badge-outline">C++</div>
           <div className="badge badge-accent badge-outline">Reactjs</div>
           <div className="badge badge-accent badge-outline">Electron</div>
           <div className="badge badge-accent badge-outline">Flask</div>
