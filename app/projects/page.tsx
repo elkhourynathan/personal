@@ -38,10 +38,10 @@ export default function ProjectsPage() {
         <ProjectCard
           title="Computer Vision Poker Game Theory Optimizer"
           date="2024"
-          description="I developed a poker game theory optimizer in Python for poker video analytics. This project involved creating a 
+          description="Developed a poker game theory optimizer in Python for poker video analytics. This project involved creating a 
           sophisticated video analytics pipeline using a custom-trained YOLOv8 model and ByteTrack to accurately distinguish and track 
           player cards from community cards. Additionally, I implemented a Monte Carlo simulation to calculate the probabilities of winning, 
-          tying, and losing, which enables strategic decisions on whether to fold, call, or raise based on the expected value.."
+          tying, and losing, which enables strategic decisions on whether to fold, call, or raise based on the expected value."
           techStack={[
             'Python',
             'Ultralytics',
