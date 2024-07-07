@@ -31,6 +31,17 @@ export default function WorkPage() {
             Integrated parallelism into the computer vision pipeline to fully
             utilize edge device hardware, increasing FPS by 30%
           </li>
+          <li>
+            Developed a configurable synthetic data generation pipeline in
+            Python, enhancing dataset size and diversity, resulting in a 25%
+            improvement in model accuracy and a 30% reduction in false positives
+          </li>
+          <li>
+            Researched and integrated an evaluation pipeline for multi-object
+            tracking, dynamically mapping ReID assigned IDs to ground truth
+            data, resulting in precise metrics on MOTA, MOTP, HOTA, false
+            positives, false negatives, and misses
+          </li>
         </ul>
         <div className="space-x-2">
           <div className="badge badge-accent badge-outline">Python</div>
@@ -56,9 +67,9 @@ export default function WorkPage() {
             structured and unstructured documents
           </li>
           <li>
-            Engineered the Datahunter Query Language (DQL), a user focused query
-            language using a modified command pattern for backend architecture,
-            resulting in over 200% faster query loads and query capabilities
+            Engineered the Datahunter Query Language using a modified command
+            pattern for backend architecture and integrated it into the Blazor
+            frontend, resulting in over 200% faster query loads
           </li>
           <li>
             Overhauled the data catalog pipeline in Databricks, resulting in
@@ -82,13 +93,19 @@ export default function WorkPage() {
         </div>
         <ul>
           <li>
-          Lead the developed of a comprehensive test automation program for optical transceivers using Python, saving over 20 hours of testing time per week
+            Lead the development of a comprehensive test automation program for
+            optical transceivers using Python, saving over 20 hours of testing
+            time per week
           </li>
           <li>
-          Integrated hardware components by utilizing C++ APIs in Python via wrappers for BERTs, DSOs, and temperature control units, ensuring seamless functionality
+            Developed and integrated C++ APIs in Python with Cython for hardware
+            components including BERTs, DSOs, and temperature control units,
+            ensuring seamless functionality
           </li>
           <li>
-          Designed a user-centric interface with ReactJS and Electron, displaying real-time hardware data and streamlining it into downloadable reports
+            Designed a user-centric interface with ReactJS and Electron,
+            displaying real-time hardware data and streamlining it into
+            downloadable reports
           </li>
         </ul>
         <div className="space-x-2">
