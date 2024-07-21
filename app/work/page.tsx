@@ -19,12 +19,12 @@ export default function WorkPage() {
           J-Squared Technologies
         </h2>
         <div className="flex flex-row items-start justify-between">
-          <p className="text-neutral-400 text-sm">Software Engineer Intern</p>
+          <p className="text-neutral-400 text-sm">Machine Learning Engineer Intern</p>
           <p className="text-neutral-400 text-sm">Present</p>
         </div>
         <p>
           Working on the FALC-AI team, developing computer vision based
-          solutions for retail, construction and other industries.
+          solutions for retail, mining, and defense applications.
         </p>
         <ul>
           <li>
@@ -48,6 +48,7 @@ export default function WorkPage() {
           <div className="badge badge-accent badge-outline">PyTorch</div>
           <div className="badge badge-accent badge-outline">Typescript</div>
           <div className="badge badge-accent badge-outline">Next.js</div>
+          <div className="badge badge-accent badge-outline">NestJS</div>
         </div>
         <hr className="my-6 border-neutral-600 " />
         <h2 className="font-medium text-xl mb-0 tracking-tighter">
